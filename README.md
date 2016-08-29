@@ -1,5 +1,12 @@
 # Level
 * ` Level.setTile(int, int, int, int, int); `
+* ` Level.getTime(); `
+* ` Level.setTime(int); `
+* ` Level.getTile(int, int, int); `
+* ` Level.playSound(int, int, int, str, int); `
+* ` Level.explode(int, int, int, int); `
+* ` Level.destroyBlock(int, int, int, bool); `
+
 
 # ModLIB
 * ` ModLIB.clientMessage(str); `
@@ -9,17 +16,26 @@
 * ` ModLIB.openOptionsScreen(int); `
 * ` ModLIB.openScreen(int ScreenType); `
 * ` ModLIB.selectSlot(int); `
-* ` ModLIB.setFile(str,str); `
+* ` ModLIB.setFile(str, str); `
 * ` ModLIB.showPopupNotice(str, str); `
 * ` ModLIB.showTipMessage(str); `
+
+# Screen
+* ` Screen.drawText(int ScreenType, str, int, int); `
 
 # Player
 * ` Player.buildOrInteract(); `
 * ` Player.destroyOrAttack(); `
 * ` Player.jump(); `
+* ` Player.setDimension(int); `
 * ` Player.x(); `
 * ` Player.y(); `
 * ` Player.z(); `
+
+# Item
+* ` Item.setGlint(id, bool); `
+* ` Item.setIcon(int, str, int); `
+* ` Item.setAttackDamage(int, int); `
 
 # Default
 * ` getCarriedItem(); `
