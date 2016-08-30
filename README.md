@@ -31,6 +31,10 @@
 * ` Player.x(); `
 * ` Player.y(); `
 * ` Player.z(); `
+* ` Player.isSleeping(); `
+* ` Player.isInWater(); `
+* ` Player.isInLava(); `
+* ` Player.isInvisible(); `
 
 # Item
 * ` Item.setGlint(id, bool); `
