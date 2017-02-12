@@ -3,7 +3,7 @@
 * ` Level.getTime(); `
 * ` Level.setTime(int); `
 * ` Level.getTile(int, int, int); `
-* ` Level.playSound(int, int, int, str, int); `
+ str, int); `
 * ` Level.explode(int, int, int, int); `
 * ` Level.destroyBlock(int, int, int, bool); `
 
@@ -12,32 +12,9 @@
 * ` ModLIB.clientMessage(str); `
 * ` ModLIB.getFileContent(str); `
 * ` ModLIB.getTouchX(); `
-* ` ModLIB.getTouchY(); `
+* ` ModLIB.(); `
 * ` ModLIB.openOptionsScreen(int); `
-* ` ModLIB.openScreen(int ScreenType); `
-* ` ModLIB.selectSlot(int); `
-* ` ModLIB.setFile(str, str); `
-* ` ModLIB.showPopupNotice(str, str); `
-* ` ModLIB.showTipMessage(str); `
-
-# Screen
-* ` Screen.drawText(int ScreenType, str, int, int); `
-
-# Player
-* ` Player.buildOrInteract(); `
-* ` Player.destroyOrAttack(); `
-* ` Player.jump(); `
-* ` Player.setDimension(int); `
-* ` Player.x(); `
-* ` Player.y(); `
-* ` Player.z(); `
-* ` Player.isSleeping(); `
-* ` Player.isInWater(); `
-* ` Player.isInLava(); `
-* ` Player.isInvisible(); `
-
-# Item
-* ` Item.setGlint(id, bool); `
+* ` 
 * ` Item.setIcon(int, str, int); `
 * ` Item.setAttackDamage(int, int); `
 
@@ -62,5 +39,3 @@
 * ` ScreenType.INVENTORY `
 * ` ScreenType.MOB_EFFECTS `
 * ` ScreenType.OPTIONS `
-* ` ScreenType.PAUSE `
-* ` ScreenType.START `
